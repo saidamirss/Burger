@@ -1,0 +1,82 @@
+footer{
+    color: white;
+    margin-top: 150px;
+}
+
+.text2{
+    color: var(--unnamed, #FFF);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+}
+.regis{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+.regis img{
+    width: 590px;
+    height: 464px;
+    flex-shrink: 0;
+}
+
+.zakazbox{
+    width: 424px;
+    height: 555px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--dark-grey, #353535);
+    background: var(--cards, #211A16);
+    align-items: center;
+    
+   
+}
+.zakazbox h3{
+    color: #FFF;
+    text-align: center;
+    width: 344px;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px;
+}
+.zakazbox input{
+    width: 344px;
+    height: 52px;
+    padding: 16px 10px;
+    align-items: center;
+    gap: 167px;
+    border-radius: 8px ;
+    background: var(--cards, #211A16); 
+    border-color: #E2B438;
+    margin-left: 30px;
+}
+
+.zakazbox button {
+    display: flex;
+    width: 344px;
+    height: 62px;
+    padding: 19px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    margin-left: 50px;
+    padding-top: 10px;
+    background: var(--unnamed, linear-gradient(135deg, #DA8023 0%, #E2B438 100%));
+}
+
+.footer2{
+    margin-top: 100px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
