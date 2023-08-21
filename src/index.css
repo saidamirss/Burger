@@ -1,0 +1,7 @@
+body{
+     background: var(--background, #191411);
+}
+
+#root{
+     overflow: hidden;
+}
