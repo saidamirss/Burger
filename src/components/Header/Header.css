@@ -1,0 +1,143 @@
+header{
+
+    margin: 0 auto;
+    width: 1400px;
+    color: white;
+    position: relative;
+    
+}
+.yozuv{
+    width: 750px;
+    font-size: 30px;
+}
+.yozuv h1{
+    color: var(--unnamed, #FFF);
+
+font-family: Merriweather;
+font-size: 120px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; /* 156px */
+letter-spacing: 3.6px;
+text-transform: uppercase;
+}
+.yozuv p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.yozuv .b1{
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: var(--d-3320-f, #D3320F);
+    color: white;
+    margin-top: 60px;
+}
+
+.yozuv .b2{
+    display: flex;
+    width: 260px;
+    height: 62px;
+    padding: 19px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+background: var(--unnamed, linear-gradient(135deg, #DA8023 0%, #E2B438 100%));
+}
+
+.section{
+    color: #FFF;
+    justify-content: center;
+    margin-top: 250px;
+}
+.H1{
+color: var(--unnamed, #FFF);
+text-align: center;
+font-family: Merriweather;
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.92px;
+text-transform: uppercase;
+}
+
+.choosecard{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.chcard1{
+    width: 260px;
+}
+section{
+    margin-top: 300px;
+    color: #FFF;
+}
+
+.text1{
+    color: var(--unnamed, #FFF);
+text-align: center;
+font-family: Merriweather;
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.92px;
+text-transform: uppercase;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+
+.card1{
+    width: 384px;
+    height: 564px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--dark-grey, #353535);
+    background: var(--cards, #211A16);
+    margin: 25px;
+    margin-left: 100px;
+}
+.card1 img{
+    width: 354px;
+    height: 280px;
+    flex-shrink: 0;
+}
+
+.narx{
+    display: flex;
+    justify-content: space-evenly;
+}
+.narx button{
+    display: flex;
+width: 182px;
+height: 62px;
+padding: 19px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--unnamed, linear-gradient(135deg, #DA8023 0%, #E2B438 100%));
+}
+
+
+header .burgerimg{
+    position: absolute;
+    top: -81px;
+    right: -179px;
+    z-index: -1;
+}

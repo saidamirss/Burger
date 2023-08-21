@@ -1,0 +1,39 @@
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 1400px;
+    height: 130px;
+    flex-shrink: 0;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.Logo1{
+    width: 156.226px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    padding-left: 30px;
+}
+.knopka button{
+    display: flex;
+    width: 45px;
+    padding: 12px 0px 11px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: black;
+    color: white;
+}

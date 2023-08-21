@@ -1,11 +1,12 @@
-
-
-
+import React from "react";
+import Navbar from "./companents/Navbar/Navbar";
+import Header from "./companents/Header/Header";
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+   <Navbar/>
+   <Header/>
+    </>
   );
 }
 
