@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+## Terminalda yoziladigan qoydalar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`
+    node -v
+`
 
-## Available Scripts
+node -v yoki node --version NODEJS moduleni tekshirishlikga yordam beradi. Agarda sizda NODEJS bo'lmasa unda [quydagi saytga o'ting](https://nodejs.org/)
 
-In the project directory, you can run:
+## Kirish mumkin bo'lgan kontent
 
-### `npm start`
+Tashkilot katalogida siz quyidagilarni ishga tushirishingiz mumkin:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### "npm start"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ilovani ishlab chiqilayotgan rejimda ishga tushiradi va o'z saytingizni locolhost3000 yordamida ko'rishingiz mumkin.\
+Uni dasturda ko'rish uchun [http://localhost:3000](http://localhost:3000) oching.
 
-### `npm test`
+Jarayonlar bajarilgandan keyin sahifa qayta yuklanadi.\
+Boshqaruv markazida ham xatolarni ko'rishingiz mumkin.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### "npm-test"
 
-### `npm run build`
+Intuitiv koʻrinishda test sprinterini boshlaydi.\
+Qoʻshimcha maʼlumotlar uchun [ishlayotgan testlar](https://facebook.github.io/make respond application/docs/running-tests) boʻlimiga qarang.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### "npm ishga tushirish konstruksiyasi"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+“Forma” jildida yaratish ilovasini yaratadi.\
+U Respond-ni to'g'ri to'playdi va eng yaxshi taqdimot uchun shaklni kengaytiradi.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Yigʻish kichraytirilgan va fayl nomlari xeshlarni oʻz ichiga oladi.\
+Sizning arizangiz yuborilishi mumkin!
 
-### `npm run eject`
+Qoʻshimcha maʼlumotlar uchun [deployment](https://facebook.github.io/make respond application/docs/organization) segmentiga qarang.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 'npm send off toss'
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Izoh: Bu bir tomonlama faoliyat. Agar siz "tashlab qo'ysangiz" orqaga qaytolmaysiz!**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Shakl apparati va tartibga solish qarorlaridan norozi bo'lsangiz, istalgan vaqtda "ajralishingiz" mumkin. Ushbu buyurtma sizning korxonangizdan asosiy shaklga bog'liqlikni yo'q qiladi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Hamma narsa bir xil bo'lsa, u barcha dizayn hujjatlari va o'tish shartlarini (veb-paket, Babel, ESLint va boshqalar) to'g'ridan-to'g'ri vazifangizga takrorlaydi, shunda siz ularga to'liq boshqaruvga ega bo'lasiz. "Ishga tushirish" dan tashqari barcha buyurtmalar har qanday holatda ham ishlaydi, ammo ular takrorlangan skriptlarni ajratib ko'rsatishadi, shuning uchun ularni o'zgartirishingiz mumkin. Hozircha siz yolg'izsiz.
 
-## Learn More
+Hech qanday holatda "bo'shatish" dan foydalanishingiz shart emas. Imkoniyatlarning tartibga solingan ro'yxati kichik va o'rta tashkilotlar uchun maqbuldir va siz ushbu elementdan foydalanish uchun shoshilinch his qilmasligingiz kerak. Shunga qaramay, biz tushunamizki, agar siz tayyor bo'lganingizda uni o'zgartira olmagan bo'lsangiz, ushbu qurilma qimmatli bo'lmaydi.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Kodni ajratish
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bu segment bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/code-splitting](https://facebook.github.io/make respond application/docs/code-parting )
 
-### Code Splitting
+### To'plam hajmini tekshirish
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Bu segment bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/dissecting the-group size](https://facebook.github.io/make respond application/docs/parse-bundle hajmi)
 
-### Analyzing the Bundle Size
+### Dinamik veb-ilovani yaratish
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bu qism bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/making-a-moderate web-app](https://facebook.github.io/make respond application/docs/ doimiy rivojlanayotgan veb-ilovani yarating)
 
-### Making a Progressive Web App
+### Yuqori darajadagi sozlash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bu segment bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/progressed configuration](https://facebook.github.io/make respond application/docs/high level design )
 
-### Advanced Configuration
+### Yuborilmoqda
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Bu qism bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/deployment](https://facebook.github.io/make respond application/docs/sending)
 
-### Deployment
+### "npm run construct" kichiklashtirish uchun e'tibordan chetda qoldirish kerakmas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bu qism bu yerga koʻchirildi: [https://facebook.github.io/make respond application/docs/troubleshooting#npm-run-fabricate neglects to-minify](https://facebook.github.io/make - javob berish ilova/hujjatlar/troubleshooting#npm-run-construct-kichiklashtirishni e'tiborsiz qoldiradi)
